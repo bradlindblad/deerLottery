@@ -1,0 +1,28 @@
+Package: deerLottery
+Title: deerLottery
+Version: 0.0.0.9000
+Authors@R: person('Brad', 'Lindblad', email = 'bradley.lindblad@gmail.com', role = c('cre', 'aut'))
+Description: A Shiny app to examine the results of the 2019 North Dakota Deer Lottery.
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny,
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools,
+    janitor,
+    dplyr,
+    leaflet,
+    rgdal,
+    shinyMobile,
+    shinyWidgets
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+URL: https://github.com/bradlindblad/deerLottery
+BugReports: https://github.com/bradlindblad/deerLottery/issues
+Suggests: 
+    testthat
